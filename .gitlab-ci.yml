@@ -3,10 +3,8 @@ pages:
   stage: deploy
   script:
     - mkdir public/
-    - mkdir public/es
-    - mkdir public/images
-    - cp es/* public/es
-    - cp images/* public/images
+    - cp -r es/* public/es
+    - cp -r images/* public/images
     - cp index.html public
   artifacts:
     paths:
