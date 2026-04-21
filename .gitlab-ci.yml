@@ -1,9 +1,10 @@
 pages:
+  image: alpine:latest
   stage: deploy
   script:
-    - mkdir .public
-    - cp -r * .public
-    - mv .public public
+    - mkdir -p public
+    - cp -r es/* public/
+    - cp -r images public/
   artifacts:
     paths:
       - public
