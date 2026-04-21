@@ -1,4 +1,4 @@
-import {write, lineWrite} from "../../utils/write.js"
+import {write, lineWrite} from "../utils/write.js"
 
 const canvas = document.getElementById("matrix");
 const ctx = canvas.getContext("2d");

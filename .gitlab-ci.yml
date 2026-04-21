@@ -2,23 +2,8 @@ pages:
   image: alpine:latest
   stage: deploy
   script:
-    - mkdir -p public/es/aboutme
-    - mkdir -p public/es/projects
-    - mkdir -p public/es/colaborators
-    - cp -r es/index.html public/es/
-    - cp -r es/index public/es/
-    - cp -r es/utils public/es/
-    - cp es/aboutme/aboutme.html public/es/aboutme/index.html
-    - cp -r es/aboutme/style.css public/es/aboutme/
-    - cp -r es/aboutme/script.js public/es/aboutme/
-    - cp es/projects/projects.html public/es/projects/index.html
-    - cp -r es/projects/style.css public/es/projects/
-    - cp -r es/projects/script.js public/es/projects/
-    - cp es/colaborators/colaborators.html public/es/colaborators/index.html
-    - cp -r es/colaborators/style.css public/es/colaborators/
-    - cp -r es/colaborators/script.js public/es/colaborators/
-    - cp -r images public/
-    - cp index.html public/
+    - mkdir public/
+    - cp -r * public 
   artifacts:
     paths:
       - public
