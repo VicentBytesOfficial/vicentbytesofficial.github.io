@@ -44,6 +44,7 @@ async function iniciarRotrex() {
 async function iniciarAcero() {
     await write("Daniel Aracena (Acero) es un impulsor del aprendizaje tecnológico y la creatividad digital, reconocido por su labor en Codeando Futuro, una comunidad dedicada a acercar la programación a nuevas generaciones. Su trabajo destaca por combinar pedagogía, entusiasmo y un enfoque práctico que motiva a más personas a descubrir el mundo del desarrollo, la tecnología y la innovación. Con una presencia activa en iniciativas educativas, Acero se ha convertido en una figura clave para quienes buscan iniciarse en el código desde un entorno cercano y colaborativo.", ".aceroDesc", 10)
     await write("Codeando Futuro - Pagina oficial", ".link4", 20)
+    await write("Acero93 - CV de GitHub", ".link5", 20)
 }
 
 iniciarAcero()
