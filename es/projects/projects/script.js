@@ -1,4 +1,4 @@
-import {write, lineWrite} from "../utils/write.js"
+import {write, lineWrite} from "../../utils/write.js"
 
 async function boxOpacity(clase, opacityv) {
   const element = document.querySelector(clase)
