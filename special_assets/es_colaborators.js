@@ -1,37 +1,8 @@
-import {write, lineWrite} from "../utils/write.js"
-
-const canvas = document.getElementById("matrix");
-const ctx = canvas.getContext("2d");
-
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
-
-const columnas = Math.floor(canvas.width / 20);
-const gotas = Array(columnas).fill(1);
-
-function dibujar() {
-  ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
-  ctx.fillRect(0, 0, canvas.width, canvas.height);
-
-  ctx.fillStyle = "#00ff99";
-  ctx.font = "15px 'Share Tech Mono'";
-
-  gotas.forEach((y, i) => {
-    const texto = Math.random() > 0.5 ? "1" : "0";
-    ctx.fillStyle = Math.random() > 0.9 ? "#ffffff" : "#00ff99";
-    ctx.fillText(texto, i * 20, y * 20);
-
-    if (y * 20 > canvas.height && Math.random() > 0.975) {
-      gotas[i] = 0;
-    }
-    gotas[i]++;
-  });
-}
-
-setInterval(dibujar, 50);
+import {write, lineWrite} from "../assets/utils/write.js"
+import * as matrix from "../assets/utils/matrix.js";
 
 async function iniciarMenta() {
-    await write("M3nt4 (@meentart en Instagram) es una artista visual independiente que ofrece comisiones personalizadas y comparte su trabajo en plataformas digitales. Su estilo combina estética contemporánea con un enfoque narrativo, creando piezas que dialogan con la cultura gamer y el arte digital. En el desarrollo de secret_console.exe, M3nt4 aportó dirección visual y diseño conceptual, enriqueciendo la atmósfera del videojuego con un lenguaje gráfico distintivo que potencia la inmersión del jugador. Su participación no solo aportó identidad estética, sino también coherencia en la construcción del universo del juego.", ".mentaDesc", 10)
+    await write("M3nt4 (@meentart en Instagram) es una artista visual independiente que ofrece comisiones personalizadas y comparte su trabajo en plataformas digitales. Su estilo combina estética contemporánea con un enfoque narrativo, creando piezas que dialogan con la cultura gamer y el arte digital. En el desarrollo de secret_console.exe [actualmente abandonado], M3nt4 aportó dirección visual y diseño conceptual, enriqueciendo la atmósfera del videojuego con un lenguaje gráfico distintivo que potencia la inmersión del jugador. Su participación no solo aportó identidad estética, sino también coherencia en la construcción del universo del juego.", ".mentaDesc", 10)
     await write("Instagram - @meentart", ".link1", 20)
 }
 

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('utils/generic.css');
+@import url('utils/matrix.css');
+
+.MyImage {
+  border-radius: 10px;
+  width: 200px;   
+  height: auto;  
+}
+
+.me {
+  border: 1px solid var(--m_black);
+  padding: 24px;
+  display: flex;
+  gap: 8px;
+  max-width: 550px;
+  margin: 80px auto;
+  flex-wrap: wrap;
+  align-items: flex-start; 
+}
+
+.ImageContainer {
+  border-radius: 10px;
+  border: 1px solid var(--matrix);
+  background-color: var(--matrix);
+  padding: 24px;
+  margin: 0; 
+  box-shadow: 0 0 10px var(--matrix);
+}
+
+.TextRight {
+  padding: 24px;
+  flex: 1;
+  margin: 0;
+}
+
+.TextDown1 {
+  border: 1px solid var(--m_black);
+  border-radius: 10px;
+  padding: 24px;
+  width: 100%;
+  margin: 0; 
+  text-align:left;
+}
+
+.TextDown2 {
+  border: 1px solid var(--m_black);
+  border-radius: 10px;
+  padding: 24px;
+  width: 100%;
+  margin: 0; 
+  text-align:left;
+}
