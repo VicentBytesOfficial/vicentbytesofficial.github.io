@@ -15,5 +15,13 @@ async function projectslinks() {
   await write("FamilyDataBase es un programa que usa el sistema de servidores TCP para mover archivos de una computadora a otra...", ".projectdesc2", 20)
 }
 
+async function youtubeSector() {
+  await write("> Youtube link - @VicentBytes, ", ".youtubelink1", 50)
+  await write("This is my primary channel, where I upload content about OpenComputers, various gameplays, and general content. Don't forget to stop by and subscribe.", ".youtubedesc1", 20)
+  await write("> Youtube link - @VicentBytesCoding, ", ".youtubelink2", 50)
+  await write("This is my secondary channel dedicated to advanced programming: step-by-step tutorials, practical projects, and resources for those who want to take their skills to the next level.", ".youtubedesc2", 20)
+}
+
 iniciar();
 projectslinks();
+youtubeSector();
