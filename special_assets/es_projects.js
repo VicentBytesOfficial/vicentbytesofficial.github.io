@@ -16,7 +16,7 @@ async function InitFamily() {
   await write("FamilyDataBase", ".familyTitle", 50);
   await write("FamilyDataBase es un programa para windows y macOS que permite la transmision de archivos a partir de una connexion LAN, funciona con hamachi y otras VPNs.", ".familyDesc1", 20)
   await write("Desarollador por VicentBytes y Rotrex_3", ".familyDesc2", 20)
-  await write("> GitLab link - FamilyDataBase", ".familyLink", 50)
+  await write("> Github link - FamilyDataBase", ".familyLink", 50)
 }
 
 boxOpacity(".secret_console", 0);

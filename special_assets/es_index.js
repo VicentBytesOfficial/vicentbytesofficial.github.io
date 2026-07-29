@@ -11,12 +11,12 @@ async function iniciar() {
 }
 
 async function projectslinks() {
-  await write("> Gitlab link - FamilyDataBase", ".projectlink2", 50)
+  await write("> Github link - FamilyDataBase", ".projectlink2", 50)
   await write("FamilyDataBase es un programa que usa el sistema de servidores TCP para mover archivos de una computadora a otra...", ".projectdesc2", 20)
 }
 
 async function youtubeSector() {
-  await write("> Youtube link - @VicentBytes, ", ".youtubelink1", 50)
+  await write("> Youtube link - @VicentBytes", ".youtubelink1", 50)
   await write("Este es mi canal primario, donde subo contenido sobre OpenComputers, gameplays varios y contenido general. No olvides pasar por ahí y suscribirte.", ".youtubedesc1", 20)
   await write("> Youtube link - @VicentBytesCoding, ", ".youtubelink2", 50)
   await write("Este es mi canal secundario dedicado a la programación avanzada: tutoriales paso a paso, proyectos prácticos y recursos para quienes quieren llevar sus habilidades al siguiente nivel.", ".youtubedesc2", 20)

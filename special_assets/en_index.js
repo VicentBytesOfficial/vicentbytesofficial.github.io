@@ -11,7 +11,7 @@ async function iniciar() {
 }
 
 async function projectslinks() {
-  await write("> GitLab link - FamilyDataBase", ".projectlink2", 50)
+  await write("> Github link - FamilyDataBase", ".projectlink2", 50)
   await write("FamilyDataBase is a program that uses the TCP server system to transfer files from one computer to another...", ".projectdesc2", 20)
 }
 
