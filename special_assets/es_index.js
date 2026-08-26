@@ -5,7 +5,7 @@ import * as glitch from "../assets/utils/glitch.js"
 async function iniciar() {
   await write("> Accediendo al usuario...", ".p1", 50);
   await write("> Exito!", ".p2", 50);
-  await write("  - Dev independiente · Python · Luau · Defold", ".p3", 30);
+  await write("  - Dev independiente · Python · Luau · Defold · Godot", ".p3", 30);
   await write("Soy VicentBytes, un Dev independiente que desarrolla apps y herramientas, pero soy un poco novato y estoy aprendiendo...", ".p4", 20);
   await write("Si quieres ver mi proyectos, los links estan abajo :D", ".p5", 20);
 }
