@@ -1,10 +1,5 @@
 import {write, lineWrite} from "../assets/utils/write.js"
 
-async function iniciarMenta() {
-    await write("M3nt4 (@meentart on Instagram) is an independent visual artist who offers personalized commissions and shares her work on digital platforms. Her style blends contemporary aesthetics with a narrative approach, creating pieces that engage with gamer culture and digital art. In the development of secret_console.exe [currently abandoned], M3nt4 contributed visual direction and conceptual design, enriching the atmosphere of the game with a distinctive graphic language that enhances player immersion. Her participation not only provided aesthetic identity but also coherence in building the game’s universe.", ".mentaDesc", 10)
-    await write("Instagram - @meentart", ".link1", 20)
-}
-
 async function iniciarRotrex() {
     await write("Rodrigo Castilla (Rotrex_3) is a developer in training with a primary focus on Python, where he experiments with personal projects and exercises that strengthen his logic and technical skills. Although he maintains a website under construction, his activity is mainly reflected on GitHub, where he documents his progress and continuous learning. His digital presence shows someone curious, growing, and committed to improving every day in the world of development.", ".rotrexDesc", 10)
     await write("LinkedIn - Rodrigo Castilla", ".link2", 20)
@@ -18,5 +13,4 @@ async function iniciarAcero() {
 }
 
 iniciarAcero()
-iniciarMenta()
 iniciarRotrex()

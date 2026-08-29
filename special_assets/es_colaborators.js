@@ -1,15 +1,15 @@
 import {write, lineWrite} from "../assets/utils/write.js"
 
 async function iniciarRotrex() {
-    await write("Rodrigo Castilla (Rotrex_3) es un desarrollador en formación con un enfoque principal en Python, donde experimenta con proyectos personales y ejercicios que fortalecen su lógica y habilidades técnicas. Aunque mantiene una página web en construcción, su actividad se refleja sobre todo en GitHub, donde documenta su progreso y aprendizaje continuo. Su presencia digital muestra a alguien curioso, en crecimiento y comprometido con mejorar cada día dentro del mundo del desarrollo.", ".rotrexDesc", 10)
-    await write("Linkedin - Rodrigo Castilla", ".link2", 20)
-    await write("Github - Rodrigo Castilla", ".link3", 20)
+    await write("Rodrigo Castilla (Rotrex_3) is a developer in training with a primary focus on Python, where he experiments with personal projects and exercises that strengthen his logic and technical skills. Although he maintains a website under construction, his activity is mainly reflected on GitHub, where he documents his progress and continuous learning. His digital presence shows someone curious, growing, and committed to improving every day in the world of development.", ".rotrexDesc", 10)
+    await write("LinkedIn - Rodrigo Castilla", ".link2", 20)
+    await write("GitHub - Rodrigo Castilla", ".link3", 20)
 }
 
 async function iniciarAcero() {
-    await write("Daniel Aracena (Acero) es un impulsor del aprendizaje tecnológico y la creatividad digital, reconocido por su labor en Codeando Futuro, una comunidad dedicada a acercar la programación a nuevas generaciones. Su trabajo destaca por combinar pedagogía, entusiasmo y un enfoque práctico que motiva a más personas a descubrir el mundo del desarrollo, la tecnología y la innovación. Con una presencia activa en iniciativas educativas, Acero se ha convertido en una figura clave para quienes buscan iniciarse en el código desde un entorno cercano y colaborativo.", ".aceroDesc", 10)
-    await write("Codeando Futuro - Pagina oficial", ".link4", 20)
-    await write("Acero93 - CV de GitHub", ".link5", 20)
+    await write("Daniel Aracena (Acero) is a promoter of technological learning and digital creativity, recognized for his work in Codeando Futuro, a community dedicated to bringing programming closer to new generations. His work stands out for combining pedagogy, enthusiasm, and a practical approach that motivates more people to discover the world of development, technology, and innovation. With an active presence in educational initiatives, Acero has become a key figure for those seeking to start coding in a friendly and collaborative environment.", ".aceroDesc", 10)
+    await write("Codeando Futuro - Official page", ".link4", 20)
+    await write("Acero93 - GitHub CV", ".link5", 20)
 }
 
 iniciarAcero()
