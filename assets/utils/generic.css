@@ -22,6 +22,12 @@ button {
   text-shadow: 0 0 10px var(--matrix);
 }
 
+button:hover h1,
+button:hover a,
+button:hover p {
+  color: var(--btn_black);
+}
+
 button:hover {
   background: var(--matrix);
   color: var(--btn_black);

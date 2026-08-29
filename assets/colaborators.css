@@ -2,12 +2,28 @@
 @import url('utils/generic.css');
 @import url('utils/matrix.css');
 
-.menta, .rotrex, .acero {
+.rotrex, .acero {
   border: 1px solid #1e1e1e;
   padding: 24px;
   display: flex;
   gap: 8px;
-  width: 450px;
-  margin: 80px auto;
+  width: 550px;
+  margin: 10px auto;
   flex-direction: column;
+}
+
+.middle {
+  border: 1px solid #1e1e1e;
+  padding: 24px;
+  gap: 8px;
+  display: flex;
+  flex-direction: row;
+  margin: 10px auto;
+  align-items: center;
+}
+
+.rotrexImage, .aceroImage {
+  width: 40vh;
+  height: auto;
+  border-radius: 10px;
 }

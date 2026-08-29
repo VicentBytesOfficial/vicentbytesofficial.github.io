@@ -1,6 +1,4 @@
 import {write, lineWrite} from "../assets/utils/write.js"
-import * as matrix from "../assets/utils/matrix.js";
-import * as glitch from "../assets/utils/glitch.js"
 
 async function iniciar() {
   await write("> Accessing user...", ".p1", 50);

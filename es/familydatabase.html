@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VicentBytes - FamilyDataBase</title>
+    <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../assets/familydatabase.css">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vicentbytesofficial.github.io/es/">
+    <meta property="og:title" content="VicentBytes - Desarrollador">
+    <meta property="og:description" content="Dev independiente enfocado en apps de escritorio y videojuegos. Python · Lua · Defold">
+    <meta property="og:image" content="https://vicentbytesofficial.github.io/images/preview.png">
+    <meta name="theme-color" content="#ff0000">
+    <meta name="description" content="FamilyDataBase: sistema de transferencia de archivos LAN hecho en Python por VicentBytes.">
+</head>
+<body>
+    <div class="navbar">
+      <a href="projects.html"><button>/Proyectos</button></a>
+      <a href="aboutme.html"><button>/Sobre_mí</button></a>
+      <a href="colaborators.html"><button>/Colaboradores</button></a>
+      <a href="services.html"><button>/Servicios</button></a>
+      <a href="index.html"><button>/Principal</button></a>
+    </div>
+    <h1><span class="mainTitle"></span><span class="cursor">|</span></h1>
+    <div class="fdb-container">
+        <div class="fdb-box fdb-intro">
+            <h2>¿Qué es?</h2>
+            <p class="introDesc1"></p>
+            <p class="introDesc2"></p>
+        </div>
+
+        <div class="fdb-box fdb-features">
+            <h2>Características</h2>
+            <ul class="featureList">
+                <li>Transferencia de archivos por LAN (compatible con Hamachi y otras VPNs)</li>
+                <li>Listado de archivos disponibles directo desde la interfaz</li>
+                <li>Soporte multiusuario con autenticación por usuario y contraseña</li>
+                <li>Carpeta <code>global/</code> compartida entre todos los usuarios</li>
+                <li>Interfaz gráfica con CustomTkinter para el cliente</li>
+                <li>Consola de administración para gestionar usuarios</li>
+                <li>Protección contra ataques de path traversal</li>
+                <li>Se puede compilar como <code>.exe</code> (Windows) o <code>.app</code> (macOS), sin necesitar Python instalado</li>
+            </ul>
+        </div>
+
+        <div class="fdb-box fdb-tech">
+            <h2>Info Técnica</h2>
+            <div class="techGrid">
+                <p><span class="techLabel">Protocolo:</span> TCP (sockets crudos)</p>
+                <p><span class="techLabel">Puerto por defecto:</span> 5000</p>
+                <p><span class="techLabel">Autenticación:</span> JSON (users.json)</p>
+                <p><span class="techLabel">GUI:</span> CustomTkinter</p>
+                <p><span class="techLabel">Python:</span> 3.10+</p>
+                <p><span class="techLabel">Estructura:</span> Client/ + Server/ (server.py, console.py, client.py, GUI.py)</p>
+            </div>
+        </div>
+
+        <div class="fdb-box fdb-credits">
+            <h2>Desarrollado por</h2>
+            <p>VicentBytes y Rotrex_3</p>
+            <a href="https://github.com/vicentbytesofficial/familydatabase" target="_blank"><p class="fdbLink">&gt; Github - FamilyDataBase</p></a>
+        </div>
+    </div>
+    <canvas id="matrix"></canvas>
+    <script type="module" src="../special_assets/es_familydatabase.js"></script>
+    <script type="module" src="../assets/utils/matrix.js"></script>
+</body>
+</html>

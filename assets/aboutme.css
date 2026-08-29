@@ -34,24 +34,34 @@
   margin: 0;
 }
 
-.TextDown1 {
+.TextDown1, .TextDown2, .TextDown3 {
   border: 1px solid var(--m_black);
   border-radius: 10px;
   padding: 24px;
   width: 100%;
   margin: 0; 
   text-align:left;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
 }
 
-.TextDown2 {
-  border: 1px solid var(--m_black);
-  border-radius: 10px;
-  padding: 24px;
-  width: 100%;
-  margin: 0; 
-  text-align:left;
-}
-
-.desc7 {
+.desc {
   text-decoration: underline;
+}
+
+a.serviceLink {
+  opacity: 1; 
+  color: #ff3333;
+  text-shadow: 0 0 15px #ff3333;
+}
+
+a.serviceLink:hover {
+  opacity: 1;
+  color: #ff6666;
+  text-shadow: 0 0 20px #ff6666;
+}
+
+a.serviceLink:visited {
+  color: #ff3333; 
 }

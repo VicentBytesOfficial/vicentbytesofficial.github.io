@@ -1,5 +1,4 @@
 import {write, lineWrite} from "../assets/utils/write.js"
-import * as matrix from "../assets/utils/matrix.js";
 
 async function iniciarMenta() {
     await write("M3nt4 (@meentart on Instagram) is an independent visual artist who offers personalized commissions and shares her work on digital platforms. Her style blends contemporary aesthetics with a narrative approach, creating pieces that engage with gamer culture and digital art. In the development of secret_console.exe [currently abandoned], M3nt4 contributed visual direction and conceptual design, enriching the atmosphere of the game with a distinctive graphic language that enhances player immersion. Her participation not only provided aesthetic identity but also coherence in building the game’s universe.", ".mentaDesc", 10)

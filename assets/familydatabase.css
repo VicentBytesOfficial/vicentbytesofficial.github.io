@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('utils/generic.css');
+@import url('utils/matrix.css');
+
+.cursor {
+    color: #ff0000;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+.fdb-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 550px;
+  margin: 40px auto 80px auto;
+}
+
+.fdb-box {
+  border: 1px solid var(--m_black);
+  border-radius: 10px;
+  padding: 24px;
+  width: 100%;
+  margin: 0;
+  text-align: left;
+  opacity: 0;
+  transition: opacity 0.6s ease;
+}
+
+.featureList {
+  margin: 10px;
+  padding-left: 20px;
+  color: var(--matrix);
+}
+
+.featureList li {
+  margin-bottom: 8px;
+  text-shadow: 0 0 10px var(--matrix);
+}
+
+.featureList code {
+  font-family: 'Share Tech Mono', monospace;
+  opacity: 0.85;
+}
+
+.techGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.techLabel {
+  opacity: 0.7;
+  margin-right: 6px;
+}
+
+.fdbLink {
+  cursor: pointer;
+}

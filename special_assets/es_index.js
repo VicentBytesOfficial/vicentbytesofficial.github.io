@@ -1,6 +1,4 @@
 import {write, lineWrite} from "../assets/utils/write.js"
-import * as matrix from "../assets/utils/matrix.js"
-import * as glitch from "../assets/utils/glitch.js"
 
 async function iniciar() {
   await write("> Accediendo al usuario...", ".p1", 50);
@@ -22,6 +20,22 @@ async function youtubeSector() {
   await write("Este es mi canal secundario dedicado a la programación avanzada: tutoriales paso a paso, proyectos prácticos y recursos para quienes quieren llevar sus habilidades al siguiente nivel.", ".youtubedesc2", 20)
 }
 
+async function ctaSection() {
+  await write("Estoy disponible para tomar proyectos freelance: apps de escritorio, bots, servidores y más.", ".ctaDesc", 20)
+}
+
+let topZ = 1;
+
+document.querySelectorAll(".win").forEach(win => {
+  win.addEventListener("click", () => {
+    topZ++;
+    win.style.zIndex = topZ;
+    document.querySelectorAll(".win").forEach(w => w.classList.remove("front"));
+    win.classList.add("front");
+  });
+});
+
 iniciar();
 projectslinks();
 youtubeSector();
+ctaSection()
