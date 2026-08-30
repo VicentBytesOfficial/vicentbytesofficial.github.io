@@ -22,3 +22,18 @@
   justify-content: space-between;
   border-bottom: 1px solid var(--m_black);
 }
+
+.underlayer {
+  position: absolute;
+  border: 1px solid var(--m_black);
+  display: flex;
+  top: var(--wy);
+  left: var(--wx);
+  gap: 8px;
+  padding: 6px;
+  width: 180px;
+  margin: 80px auto;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+}

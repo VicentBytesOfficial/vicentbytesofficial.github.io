@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vicentbytesofficial.github.io/sitemap.xml

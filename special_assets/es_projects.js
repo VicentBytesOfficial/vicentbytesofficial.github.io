@@ -19,6 +19,16 @@ async function InitFamily() {
   await write("> Pagina del proyecto - FamilyDataBase", ".familyLink2", 50)
 }
 
+async function InitUtilipy() {
+  await boxOpacity(".utilipy", 1)
+  await write(">>> UtiliPy", ".utilipyTitle", 50);
+  await write("Utilipy es un bot de Discord open-source actualmente en desarrollo, creado en Python. Está diseñado para ofrecer diversas herramientas y utilidades para servidores, como el envío de avisos personalizados y atractivos, funciones de automoderación y mucho más.", ".utilipyDesc1", 20)
+  await write("Desarollador por VicentBytes", ".utilipyDesc2", 20)
+  await write("> Fecha de lanzamiento: aún no programada.", ".utilipyDesc3", 50)
+}
+
 boxOpacity(".familydatabase", 0);
+boxOpacity(".utilipy", 0);
 InitTitles();
 InitFamily()
+InitUtilipy()

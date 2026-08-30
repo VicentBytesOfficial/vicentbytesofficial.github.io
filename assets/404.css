@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+@import url('utils/generic.css');
+@import url('utils/colors.css');
+@import url('utils/matrix.css');
+
+.nuv {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+
+    width: 570px;
+    height: auto;
+
+    z-index: -1;
+}
+
+.t1, .t2, .t3 {
+    text-align: left;
+}
+
+.container {
+  border: 1px solid #1e1e1e;
+  padding: 24px;
+  gap: 8px;
+  width: 550px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: opacity 0.6s ease;
+  opacity: 0;
+}

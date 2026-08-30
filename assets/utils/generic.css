@@ -23,6 +23,11 @@ button {
 }
 
 button:hover h1,
+button:hover h2,
+button:hover h3,
+button:hover h4,
+button:hover h5,
+button:hover h6,
 button:hover a,
 button:hover p {
   color: var(--btn_black);
@@ -58,7 +63,7 @@ h1 {
     text-shadow: 0 0 10px var(--matrix);
 }
 
-h2 {
+h2, h3, h4, h5, h6 {
     color: var(--matrix);
     font-family: 'Share Tech Mono', monospace;
     text-shadow: 0 0 10px var(--matrix);

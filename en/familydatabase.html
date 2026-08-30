@@ -9,20 +9,25 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://vicentbytesofficial.github.io/en/">
     <meta property="og:title" content="VicentBytes - Developer">
-    <meta property="og:description" content="Indie dev focused on desktop apps and games. Python · Lua · Defold">
+    <meta property="og:description" content="Indie dev focused on desktop apps and video games. Python · Lua · Defold">
     <meta property="og:image" content="https://vicentbytesofficial.github.io/images/preview.png">
     <meta name="theme-color" content="#ff0000">
-    <meta name="description" content="FamilyDataBase: a Python LAN file transfer system by VicentBytes.">
+    <meta name="description" content="FamilyDataBase: a Python-based LAN file transfer system developed by VicentBytes.">
 </head>
+
 <body>
     <div class="navbar">
       <a href="projects.html"><button>/Projects</button></a>
       <a href="aboutme.html"><button>/About_me</button></a>
       <a href="colaborators.html"><button>/Collaborators</button></a>
+      <a href="services.html"><button>/Services</button></a>
       <a href="index.html"><button>/Home</button></a>
     </div>
+
     <h1><span class="mainTitle"></span><span class="cursor">|</span></h1>
+
     <div class="fdb-container">
+
         <div class="fdb-box fdb-intro">
             <h2>What is it?</h2>
             <p class="introDesc1"></p>
@@ -32,23 +37,24 @@
         <div class="fdb-box fdb-features">
             <h2>Features</h2>
             <ul class="featureList">
-                <li>File transfer over LAN (works with Hamachi and other VPNs)</li>
-                <li>File listing available directly from the interface</li>
+                <li>LAN file transfer (compatible with Hamachi and other VPNs)</li>
+                <li>Available file listing directly from the interface</li>
                 <li>Multi-user support with username and password authentication</li>
-                <li>Shared <code>global/</code> folder accessible to all users</li>
-                <li>CustomTkinter GUI for the client</li>
-                <li>Admin console for managing users</li>
-                <li>Path traversal attack protection</li>
-                <li>Can be built as a standalone <code>.exe</code> (Windows) or <code>.app</code> (macOS), no Python required</li>
+                <li><code>global/</code> folder shared between all users</li>
+                <li>Graphical interface built with CustomTkinter for the client</li>
+                <li>Administration console for managing users</li>
+                <li>Protection against path traversal attacks</li>
+                <li>Can be compiled as <code>.exe</code> (Windows) or <code>.app</code> (macOS), without requiring Python to be installed</li>
             </ul>
         </div>
 
         <div class="fdb-box fdb-tech">
             <h2>Technical Info</h2>
+
             <div class="techGrid">
                 <p><span class="techLabel">Protocol:</span> TCP (raw sockets)</p>
                 <p><span class="techLabel">Default port:</span> 5000</p>
-                <p><span class="techLabel">Auth:</span> JSON (users.json)</p>
+                <p><span class="techLabel">Authentication:</span> JSON (users.json)</p>
                 <p><span class="techLabel">GUI:</span> CustomTkinter</p>
                 <p><span class="techLabel">Python:</span> 3.10+</p>
                 <p><span class="techLabel">Structure:</span> Client/ + Server/ (server.py, console.py, client.py, GUI.py)</p>
@@ -58,10 +64,17 @@
         <div class="fdb-box fdb-credits">
             <h2>Developed by</h2>
             <p>VicentBytes and Rotrex_3</p>
-            <a href="https://github.com/vicentbytesofficial/familydatabase" target="_blank"><p class="fdbLink">&gt; Github - FamilyDataBase</p></a>
+
+            <a href="https://github.com/vicentbytesofficial/familydatabase" target="_blank">
+                <p class="fdbLink">&gt; GitHub - FamilyDataBase</p>
+            </a>
         </div>
+
     </div>
+
     <canvas id="matrix"></canvas>
+
     <script type="module" src="../special_assets/en_familydatabase.js"></script>
+    <script type="module" src="../assets/utils/matrix.js"></script>
 </body>
 </html>

@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang = "es">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>VicentBytes - Proyectos</title>
+    <title>VicentBytes - Projects</title>
     <link rel="icon" href="../images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="../assets/projects.css">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://vicentbytesofficial.github.io/es/">
-    <meta property="og:title" content="VicentBytes - Desarrollador">
-    <meta property="og:description" content="Dev independiente enfocado en apps de escritorio y videojuegos. Python · Lua · Defold">
+    <meta property="og:url" content="https://vicentbytesofficial.github.io/en/">
+    <meta property="og:title" content="VicentBytes - Developer">
+    <meta property="og:description" content="Indie dev focused on desktop apps and games. Python · Lua · Defold">
     <meta property="og:image" content="https://vicentbytesofficial.github.io/images/preview.png">
     <meta name="theme-color" content="#ff0000">
-    <meta name="description" content="Dev independiente enfocado en apps de escritorio y videojuegos.">
+    <meta name="description" content="Indie dev focused on desktop apps and games.">
 </head>
 <body>
     <div class="navbar">
@@ -24,19 +24,55 @@
     </div>
     <h1><span class="mainTitle"></span><span class="cursor">|</span></h1>
     <div class="projects-container">
-        <div class="familydatabase">
-            <div class="bar">
-                <p>familydatabase_demo.exe</p>
-                <p>[X]</p>
+
+        <div class="project-wrapper">
+            <div class="underlayer btn3">
+                <button>familydatabase_demo.exe</button>
             </div>
-            <h2 class="familyTitle"></h2>
-            <p class="familyDesc1"></p>
-            <p class="familyDesc2"></p>
-            <a href="https://github.com/vicentbytesofficial/familydatabase" target="_blank"><p class="familyLink1"></p></a>
-            <a href="familydatabase.html"><p class="familyLink2"></p></a>
+
+            <div class="familydatabase">
+                <div class="bar">
+                    <p>familydatabase_demo.exe</p>
+                    <button class="btn1">[X]</button>
+                </div>
+
+                <h2 class="familyTitle"></h2>
+                <p class="familyDesc1"></p>
+                <p class="familyDesc2"></p>
+
+                <a href="https://github.com/vicentbytesofficial/familydatabase" target="_blank">
+                    <p class="familyLink1"></p>
+                </a>
+
+                <a href="familydatabase.html">
+                    <p class="familyLink2"></p>
+                </a>
+            </div>
         </div>
+
+
+        <div class="project-wrapper">
+            <div class="underlayer btn4">
+                <button>utilipy_demo.exe</button>
+            </div>
+
+            <div class="utilipy">
+                <div class="bar">
+                    <p>utilipy_demo.exe</p>
+                    <button class="btn2">[X]</button>
+                </div>
+
+                <h2 class="utilipyTitle"></h2>
+                <p class="utilipyDesc1"></p>
+                <p class="utilipyDesc2"></p>
+                <h3 class="utilipyDesc3"></h3>
+            </div>
+        </div>
+
     </div>
     <canvas id="matrix"></canvas>
     <script type="module" src="../special_assets/es_projects.js"></script>
+    <script type="module" src="../assets/projects.js"></script>
     <script type="module" src="../assets/utils/matrix.js"></script>
 </body>
+</html>
